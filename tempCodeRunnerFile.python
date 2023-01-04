@@ -1,0 +1,37 @@
+salario = int(input())    
+
+def convert(salario, reajuste, percentual):
+    n=""
+    r=""
+    n=salario.replace(".",",")
+    r=reajuste.replace(".",",")
+    # print(n) 
+    # print(r)
+    # print(f'Em percentual:  {porcentagem}%')
+    print(f'Novo salario{n} Reajuste: {r} Em percentual: {percentual}%')
+
+if (salario <= 600):
+    n = (f'{salario + (salario*0.17):.2f}')
+    r= (f'{(salario*0.17):.2f}')
+    convert(n, r, 17)
+    
+
+elif (salario >= 600.01 and salario <= 900):    
+    n=(f'{salario + (salario*0.13):.2f}')
+    r=(f'{(salario*0.13):.2f}')
+    convert(n, r, 13)
+
+elif (salario >= 900.01 and salario <= 1500):    
+    n=(f'{salario + (salario*0.12):.2f}')
+    r=(f'{(salario*0.12):.2f}')
+    convert(n, r, 12)        
+
+elif (salario >= 1500.01 and salario <= 2000):
+    n=(f'{salario + (salario*0.10):.2f}')
+    r=(f'{(salario*0.10):.2f}')
+    convert(n, r, 10)
+
+elif (salario >= 2000):
+    n=(f'{salario + (salario*0.05):.2f}')
+    r=(f'{(salario*0.05):.2f}')
+    convert(n, r, 5)
