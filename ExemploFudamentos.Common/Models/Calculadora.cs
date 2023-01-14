@@ -1,4 +1,4 @@
-namespace dotnet_DIO.Models
+namespace ExemploFudamentos.Common.Models
 {
   public class Calculadora
   {

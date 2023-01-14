@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExemploFudamentos.Common", "ExemploFudamentos.Common\ExemploFudamentos.Common.csproj", "{AB7ECBBC-1FE9-4DE6-B82E-FBF6E670B7B1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dotnet-DIO", "ExemploFundamentos\dotnet-DIO.csproj", "{C4D81F31-A4CB-4A55-8BF7-E4066595269C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{892F0556-239F-4A59-8F1B-1C6AEC9393F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{892F0556-239F-4A59-8F1B-1C6AEC9393F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{892F0556-239F-4A59-8F1B-1C6AEC9393F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{892F0556-239F-4A59-8F1B-1C6AEC9393F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB7ECBBC-1FE9-4DE6-B82E-FBF6E670B7B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB7ECBBC-1FE9-4DE6-B82E-FBF6E670B7B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB7ECBBC-1FE9-4DE6-B82E-FBF6E670B7B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB7ECBBC-1FE9-4DE6-B82E-FBF6E670B7B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C4D81F31-A4CB-4A55-8BF7-E4066595269C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4D81F31-A4CB-4A55-8BF7-E4066595269C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4D81F31-A4CB-4A55-8BF7-E4066595269C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4D81F31-A4CB-4A55-8BF7-E4066595269C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

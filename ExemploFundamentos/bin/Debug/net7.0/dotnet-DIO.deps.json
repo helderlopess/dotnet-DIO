@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "dotnet-DIO/1.0.0": {
+        "dependencies": {
+          "ExemploFudamentos.Common": "1.0.0"
+        },
+        "runtime": {
+          "dotnet-DIO.dll": {}
+        }
+      },
+      "ExemploFudamentos.Common/1.0.0": {
+        "runtime": {
+          "ExemploFudamentos.Common.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "dotnet-DIO/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ExemploFudamentos.Common/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

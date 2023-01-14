@@ -1,4 +1,4 @@
-namespace dotnet_DIO.Models
+namespace dotnet_DIO.Common.Models
 {
   public class Pessoa
   {

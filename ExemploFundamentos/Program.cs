@@ -1,5 +1,8 @@
-﻿
+﻿using dotnet_DIO.Common.Models;
 
+Pessoa pessoa1 = new Pessoa();
+pessoa1.Nome="Buta";
+pessoa1.Apresentar();
 
 
 
